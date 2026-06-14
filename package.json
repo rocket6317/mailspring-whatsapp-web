@@ -1,8 +1,8 @@
 {
   "name": "mailspring-whatsapp-web",
   "displayName": "WhatsApp Web",
-  "version": "0.2.0",
-  "description": "Open a persistent WhatsApp Web tab inside Mailspring.",
+  "version": "0.3.0",
+  "description": "Open a persistent WhatsApp Web tab with notifications inside Mailspring.",
   "main": "./lib/main",
   "license": "MIT",
   "engines": {

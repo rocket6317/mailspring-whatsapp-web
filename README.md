@@ -10,6 +10,7 @@ conversation instead of reloading the page.
 ## Features
 
 - Persistent WhatsApp Web view inside Mailspring
+- Native WhatsApp Web notifications
 - Grey inactive toolbar icon and green active state
 - Login survives Mailspring restarts
 - External links open in the system browser
@@ -36,11 +37,21 @@ Cookies, IndexedDB, and login state are stored locally by Mailspring under its
 application data directory. They are not included in this repository or sent
 anywhere by the plugin.
 
+## Notifications
+
+The plugin grants the `notifications` permission only to
+`https://web.whatsapp.com` inside its isolated persistent partition. Camera,
+microphone, location, and every other permission remain denied.
+
+WhatsApp Web generates and controls the notification content. Mailspring must
+remain running for notifications to arrive. Notification previews and sounds
+can be managed in macOS System Settings.
+
 ## Limitations
 
 - WhatsApp may change its browser checks or block embedded Electron sessions.
-- Calling, camera, microphone, notifications, and downloads may require
-  additional permission handling.
+- Calling, camera, microphone, and downloads require additional permission
+  handling and remain disabled by this plugin.
 - Mailspring or Electron updates may require plugin changes.
 - The plugin embeds the full WhatsApp Web service; normal WhatsApp privacy and
   security terms still apply.
