@@ -11,6 +11,7 @@ conversation instead of reloading the page.
 
 - Persistent WhatsApp Web view inside Mailspring
 - Native WhatsApp Web notifications
+- Blue unread icon with a compact message-count badge
 - Grey inactive toolbar icon and green active state
 - Login survives Mailspring restarts
 - External links open in the system browser
@@ -46,6 +47,10 @@ microphone, location, and every other permission remain denied.
 WhatsApp Web generates and controls the notification content. Mailspring must
 remain running for notifications to arrive. Notification previews and sounds
 can be managed in macOS System Settings.
+
+When WhatsApp is hidden, unread counts reported by WhatsApp's page title turn
+the toolbar icon blue and display a compact count badge. Opening WhatsApp clears
+the indicator and changes the icon to its active green state.
 
 ## Limitations
 

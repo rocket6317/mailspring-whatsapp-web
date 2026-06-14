@@ -57,6 +57,7 @@
   height: calc(100% - 5px);
   margin: 5px 2px 0 0;
   padding: 0;
+  position: relative;
   opacity: 0.58;
   border: 0;
   border-radius: 0;
@@ -80,6 +81,14 @@
   &.active-true .whatsapp-toolbar-icon {
     background: #25d366;
   }
+
+  &.unread-true {
+    opacity: 1;
+
+    .whatsapp-toolbar-icon {
+      background: #0a84ff;
+    }
+  }
 }
 
 .whatsapp-toolbar-icon {
@@ -92,4 +101,23 @@
   -webkit-mask-position: center;
   -webkit-mask-repeat: no-repeat;
   -webkit-mask-size: contain;
+}
+
+.whatsapp-toolbar-badge {
+  position: absolute;
+  top: 4px;
+  right: -2px;
+  min-width: 13px;
+  height: 13px;
+  padding: 0 3px;
+  color: white;
+  background: #0a84ff;
+  border: 1px solid @toolbar-background-color;
+  border-radius: 7px;
+  font-size: 8px;
+  font-weight: 700;
+  line-height: 11px;
+  text-align: center;
+  box-sizing: border-box;
+  pointer-events: none;
 }
