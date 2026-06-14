@@ -14,6 +14,7 @@ conversation instead of reloading the page.
 - Persistent WhatsApp Web view inside Mailspring
 - Native WhatsApp Web notifications
 - Blue unread icon with a compact message-count badge
+- Return to mail by selecting any mailbox or folder
 - Grey inactive toolbar icon and green active state
 - Login survives Mailspring restarts
 - External links open in the system browser
