@@ -1,5 +1,7 @@
 # WhatsApp Web for Mailspring
 
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/M4M31NTEGN)
+
 An unofficial Mailspring plugin that opens WhatsApp Web inside the Mailspring
 window.
 
