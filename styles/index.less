@@ -50,6 +50,14 @@
 
 .whatsapp-toolbar-button {
   order: 100;
+}
+
+.whatsapp-sync-button {
+  order: 101;
+}
+
+.whatsapp-toolbar-button,
+.whatsapp-sync-button {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -91,6 +99,16 @@
   }
 }
 
+.whatsapp-sync-button {
+  opacity: 0.58;
+
+  &:hover,
+  &:focus,
+  &:active {
+    opacity: 1;
+  }
+}
+
 .whatsapp-toolbar-icon {
   display: block;
   width: 19px;
@@ -98,6 +116,18 @@
   transform: translateY(7px);
   background: @text-color-subtle;
   -webkit-mask-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M4 4h16v12H8l-4 4V4zm3 4v2h10V8H7zm0 4v2h7v-2H7z'/></svg>");
+  -webkit-mask-position: center;
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-size: contain;
+}
+
+.whatsapp-sync-icon {
+  display: block;
+  width: 18px;
+  height: 18px;
+  transform: translateY(7px);
+  background: @text-color-subtle;
+  -webkit-mask-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M17.7 6.3A7.8 7.8 0 0 0 4.6 10H2.4A9.8 9.8 0 0 1 19.1 4.9L21 3v6h-6l2.7-2.7zM6.3 17.7A7.8 7.8 0 0 0 19.4 14h2.2A9.8 9.8 0 0 1 4.9 19.1L3 21v-6h6l-2.7 2.7z'/></svg>");
   -webkit-mask-position: center;
   -webkit-mask-repeat: no-repeat;
   -webkit-mask-size: contain;

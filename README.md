@@ -9,6 +9,9 @@ The plugin adds a small toolbar icon beside Compose. WhatsApp remains mounted
 while hidden, so switching between Mail and WhatsApp preserves the current
 conversation instead of reloading the page.
 
+A second toolbar icon beside WhatsApp triggers Mailspring's normal mail sync,
+matching the built-in F5 sync action.
+
 ## Features
 
 - Persistent WhatsApp Web view inside Mailspring
@@ -16,6 +19,7 @@ conversation instead of reloading the page.
 - Blue unread icon with a compact message-count badge
 - Return to mail by selecting any mailbox or folder
 - Grey inactive toolbar icon and green active state
+- Adjacent sync button for the same action as Mailspring's F5 shortcut
 - Login survives Mailspring restarts
 - External links open in the system browser
 - No bundled credentials, analytics, or remote services
