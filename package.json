@@ -1,7 +1,7 @@
 {
   "name": "mailspring-whatsapp-web",
   "displayName": "WhatsApp Web",
-  "version": "0.6.0",
+  "version": "0.6.1",
   "description": "Open a persistent WhatsApp Web tab with notifications and unread counts inside Mailspring.",
   "main": "./lib/main",
   "license": "MIT",
