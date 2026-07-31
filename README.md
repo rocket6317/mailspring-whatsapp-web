@@ -20,6 +20,8 @@ matching the built-in F5 sync action.
 - Return to mail by selecting any mailbox or folder
 - Grey inactive toolbar icon and green active state
 - Adjacent sync button for the same action as Mailspring's F5 shortcut
+- On macOS, left-clicking Mailspring's menu-bar icon restores and focuses the
+  main window; right-clicking retains the standard application menu
 - Login survives Mailspring restarts
 - External links open in the system browser
 - No bundled credentials, analytics, or remote services
