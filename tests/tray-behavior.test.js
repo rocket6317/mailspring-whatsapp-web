@@ -76,4 +76,3 @@ function makeHarness(platform = 'darwin') {
 }
 
 console.log('tray-behavior tests passed');
-
